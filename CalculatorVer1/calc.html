@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--CalculatorVer1 Project
+    By: Yousef Emadi
+    usef.emadi@gmail.com
+    15-Feb-2021
+    -->
+<html lang="en">
+<!-- Developed by; Yousef Emadi -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calc.css">
+    <title>Calculator - Y.Emadi</title>
+</head>
+<body>
+<div>
+    <fieldset id="fieldset">
+        <legend>Simple Calculator</legend>
+        <label for="num1">First Number</label><br>
+        <input type="number" id="num1" name="num1"><br><br>
+
+        <label for="num2">Second Number</label><br>
+        <input type="number" id="num2" name="num2"><br><br>
+
+        <p id="result">Result: <span id="resultValue"></span></p><br>
+
+        <button id="add" onclick="add()">+</button>
+        <button id="sub" onclick="sub()">-</button>
+        <button id="multiply" onclick="multiply()">x</button>
+        <button id="divide" onclick="divide()">/</button>
+        <button id="clear" onclick="cl()">C</button>
+
+    </fieldset>
+</div>
+<p>By: Yousef Emadi <a href="mailto: usef.emadi@gmail.com ">usef.emadi@gmail.com</a></p>
+
+<script src="./calc.js"></script>
+</body>
+   
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!--JS Second Exam
+    By: Yousef Emadi
+    usef.emadi@gmail.com
+    17-Feb-2021
+    -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    <link rel="stylesheet" href="./styles.css">-->
+    <title>Second JS Exam - Yousef Emadi</title>
+</head>
+
+<body>
+<h1>Test 2</h1>
+
+<h2>Food List - with calories</h2>
+
+<!-- div part of page to use later to show the list of foods -->
+<div>
+    <ul id="foodListTray"></ul>
+</div>
+
+
+<!-- input part of page -->
+<label for="foodName">Food name:</label><br>
+<input type="text" id="foodName" name="foodName"><br><br>
+
+<label for="calories">Calories</label><br>
+<input type="number" id="calories" name="calories"><br><br>
+
+
+<!-- buttons -->
+<button id="submitButton" onclick="addFood()">Submit</button>
+<button id="resetButton" onclick="clearList()">Reset list</button>
+
+<script src="./script.js"></script>
+</body>
+
+</html>

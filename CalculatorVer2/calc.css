@@ -1,0 +1,34 @@
+
+body{
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    margin: 2rem;
+
+}
+
+#fieldset{
+    width: 24.5rem;
+    border-radius: 0.25rem;
+}
+
+legend{
+    font-size: 2rem;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+button{
+    padding: 2rem;
+    margin: 0.5rem;
+    color: #029fcb;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+}
+
+#monitor{
+    width: 22.5rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin: auto;
+    border-radius: 0.25rem;
+}

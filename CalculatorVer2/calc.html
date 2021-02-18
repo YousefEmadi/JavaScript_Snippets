@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--CalculatorVer2 Project
+    By: Yousef Emadi
+    usef.emadi@gmail.com
+    15-Feb-2021
+    -->
+<html lang="en">
+<!-- Developed by; Yousef Emadi -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calc.css">
+    <title>Calculator.qc.ca / by: Y.Emadi</title>
+</head>
+<body>
+    <div>
+        <fieldset id="fieldset">
+
+            <input type="number" id="monitor" name="monitor" size="15"><br><br>
+
+            <legend>Simple Calculator</legend>
+            <button value="7" onclick="returnNum7()" id="num7">7</button>
+            <button value="8" onclick="returnNum8()" id="num8">8</button>
+            <button value="9" onclick="returnNum9()" id="num9">9</button>
+            <button id="divide" onclick="divide()">&#247;</button>
+            <br>
+            <button value="4" onclick="returnNum4()" id="num4">4</button>
+            <button value="5" onclick="returnNum5()" id="num5">5</button>
+            <button value="6" onclick="returnNum6()" id="num6">6</button>
+            <button id="multiply" onclick="multiply()">&#215;</button>
+            <br>
+            <button value="1" onclick="returnNum1()" id="num1">1</button>
+            <button value="2" onclick="returnNum2()" id="num2">2</button>
+            <button value="3" onclick="returnNum3()" id="num3">3</button>
+            <button id="subtract" onclick="subtract()">&#8722;</button>
+            <br>
+            <button value="0" onclick="returnNum0()" id="num0">0</button>
+            <button id="cl" onclick="cl()">C</button>
+            <button id="equal" onclick="equal()">&#61;</button>
+            <button id="plus" onclick="plus()">&#43;</button>
+
+        </fieldset>
+    </div>
+    <p>By: Yousef Emadi <a href="mailto: usef.emadi@gmail.com ">usef.emadi@gmail.com</a></p>
+    <script src="./calc.js"></script>
+
+</body>
+   
+</html>

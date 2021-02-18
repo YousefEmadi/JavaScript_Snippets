@@ -1,0 +1,31 @@
+
+body{
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    margin: 2rem;
+
+}
+
+#fieldset{
+    width: 30%;
+}
+
+legend{
+    font-size: 2rem;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+#errorTray{
+    color: red;
+}
+
+button{
+    font-size: 2rem;
+    padding: 1rem 1.5rem;
+    color: #029fcb;
+}
+
+#display{
+    height: 4rem;
+    font-size: 2rem;
+}

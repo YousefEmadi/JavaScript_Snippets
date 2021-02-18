@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--JS Project
+    By: Yousef Emadi
+    Date: 14-Feb-2021
+    -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./files/favicon.png" type="image/gif">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Y.Emadi - JS Project</title>
+</head>
+<body>
+    <form onsubmit="return validate()">
+        <fieldset id="fieldset">
+            <legend>Login</legend>
+
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password"><br><br>
+
+            <input type="submit" value="Login &#8594">
+
+            <div id="weatherTray"> </div>
+
+            <p >Today's message: <span id="banner"></span> </p>
+            <p id="date">Today's date: <span id="currentDate"></span></p>
+            <p id="time">Time now: <span id="currentTime" onload="showTime()"></span></p>
+            <p id="outputTray"></p>
+        </fieldset>
+    </form>
+    <script src="js/login.js"></script>
+</body>
+   
+</html>
