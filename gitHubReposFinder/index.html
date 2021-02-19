@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--gitHubRepositoryFinder JS Project
+    By: Yousef Emadi
+    Date: 18-Feb-2021
+    -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./files/favicon.png" type="image/gif">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>GitHub Repository Finder</title>
+</head>
+<body>
+    <fieldset id="fieldset1">
+        <legend>GitHub Repository Finder </legend>
+
+        <label for="input" id="userLabel">User: </label>
+        <input type="text" id="input" name="input" size="15">
+        <input type="submit" value="Submit" id="button" onclick="finalResult()">
+        <input type="reset" value="Reset" id="reset" onclick="reset()">
+        <div id="validationMessageTray"></div>
+    </fieldset>
+    <div id="resultWrapper"></div>
+<script src="js/login.js"></script>
+</body>
+
+</html>
