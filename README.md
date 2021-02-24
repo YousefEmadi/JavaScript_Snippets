@@ -1,5 +1,5 @@
 # myJavaScriptPractice
 
-Snippets from my JS course in JAC 
-FEB 2021
-Teacher : Aakash Malhotra
+Snippets from my JS course in JAC <br />
+FEB 2021 <br />
+Teacher : Aakash Malhotra <br />
