@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--ToDo List JS Project
+    By: https://github.com/Yousef-Emadi
+    Date: 19-Feb-2021
+    -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./files/favicon.png" type="image/gif">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>My ToDo List</title>
+</head>
+<body>
+    <fieldset id="fieldset1">
+        <legend>My ToDo List</legend>
+
+
+        <input type="text" id="input" name="input" size="25">
+        <input type="submit" value="Add" id="button" onclick="validateAndAdd()">
+
+        <p class="littleText"><em>click item: done/undone</em></p>
+        <p class="littleText"><em>double click item: remove</em></p>
+
+        <div id="validationMessageTray"></div>
+    </fieldset>
+    <div id="resultWrapper"></div>
+<script src="js/login.js"></script>
+</body>
+
+</html>

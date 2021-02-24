@@ -1,0 +1,51 @@
+/*
+    ToDo List JS Project
+    By: https://github.com/Yousef-Emadi
+    Date: 19-Feb-2021
+*/
+
+body{
+    font-family: "Press Start 2P", monospace;
+    margin: 2rem;
+    width: 19rem;
+}
+
+fieldset{
+    width: 16rem;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+legend{
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#button,
+#reset{
+    border-radius: 0.2rem;
+    color: white;
+    background-color: royalblue;
+}
+#input{
+    border-radius: 0.2rem;
+}
+
+#resultWrapper{
+    width: 19rem;
+    max-width: 19rem;
+}
+
+#userLabel{
+    font-weight: bold;
+}
+
+.lineThroughStyle{
+    text-decoration: line-through;
+    background-color: lightgreen;
+}
+
+.littleText{
+    font-size: 0.8rem;
+}
