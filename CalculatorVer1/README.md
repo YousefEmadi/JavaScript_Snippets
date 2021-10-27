@@ -1,4 +1,4 @@
 Simple Calcilator
 
-![image](https://user-images.githubusercontent.com/63328419/137798421-7e0cde17-c297-4a99-8a11-f8b2d05f67b7.png)
+![image](https://user-images.githubusercontent.com/63328419/139078891-d021f8e0-7217-4e79-b0f1-e916e1720f87.png)
 
